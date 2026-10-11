@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vikash Pandey Portfolio</title>
+<meta name="description" content="Vikash Pandey, Data Analyst. ETL pipelines, EDA, Power BI dashboards and SQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="logo" href="#top">vikash<span>.</span>pandey</a>
+  <div class="links">
+    <a href="#work">Work</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="sig" aria-hidden="true"></canvas>
+  <div class="in">
+    <div class="herogrid"><div class="txt">
+    <span class="status"><span class="dot"></span>Open to data analyst roles</span>
+    <h1>Raw data in.<br><em>Decisions</em> out.</h1>
+    <p class="lede"><b>Vikash Pandey</b>, Data Analyst. I build ETL pipelines, clean messy data, run EDA, and turn it into <b>Power BI dashboards</b> and <b>deployed models</b>. Fintech internship experience, based in Uttar Pradesh, India.</p>
+    <div class="cta">
+      <a class="btn p" href="#contact">Get in touch</a>
+      <a class="btn" href="https://github.com/vikash21pa-wq" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/vikash-pandey-9b18943a9" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    </div>
+    <figure class="pic"><img src="assets/me.jpg" alt="Portrait of Vikash Pandey" width="640" height="853"><figcaption class="mono">vikash pandey · data analyst</figcaption></figure>
+    </div>
+    <div class="nums">
+      <div><strong>3</strong><span>data sources in one ETL pipeline</span></div>
+      <div><strong>3</strong><span>metrics to evaluate the model: R², MAE, RMSE</span></div>
+      <div><strong>5</strong><span>trading KPIs defined and calculated</span></div>
+      <div><strong>1</strong><span>model served as a FastAPI endpoint</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="pipeline">
+  <div class="label">How I work</div>
+  <div>
+    <h2>From source to story</h2>
+    <div class="pipe">
+      <div class="node"><h3>Collect</h3><ul><li>REST APIs</li><li>BeautifulSoup scraping</li><li>Kaggle datasets</li></ul></div>
+      <span class="arr">→</span>
+      <div class="node"><h3>Clean</h3><ul><li>Missing values</li><li>Duplicates</li><li>Inconsistent formats</li></ul></div>
+      <span class="arr">→</span>
+      <div class="node"><h3>Explore</h3><ul><li>EDA</li><li>Feature engineering</li><li>Trends and outliers</li></ul></div>
+      <span class="arr">→</span>
+      <div class="node hl"><h3>Deliver</h3><ul><li>Power BI dashboards</li><li>Scikit-Learn models</li><li>FastAPI endpoint</li></ul></div>
+    </div>
+    <p class="cap">The same four steps run through my internship work and both projects below.</p>
+  </div>
+</section>
+
+<section id="work">
+  <div class="label">Experience</div>
+  <div class="role">
+    <div class="top"><h3>Data Analyst Intern</h3><span class="when">Jan 2026 – Mar 2026</span></div>
+    <div><span class="org">Civonic Fintech Company</span> · Remote</div>
+    <ul class="ticks">
+      <li>Built automated Python ETL pipelines that pull from 3 sources (REST APIs, BeautifulSoup web scraping, Kaggle datasets) and deliver analysis-ready datasets.</li>
+      <li>Cleaned, validated and transformed structured and unstructured data with Pandas and NumPy, fixing missing values, duplicates and inconsistent formats.</li>
+      <li>Ran exploratory data analysis and feature engineering to find trends, patterns and outliers that supported decisions in a fintech setting.</li>
+      <li>Developed interactive Power BI dashboards and Matplotlib/Seaborn charts to present KPIs and insights to stakeholders.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="label">Selected projects</div>
+  <div>
+    <h2>Things I've built</h2>
+    <div class="projects">
+      <article class="proj">
+        <div>
+          <span class="badge">Machine learning · API</span>
+          <h3>PulseCheck</h3>
+          <p>A student mental wellbeing estimator. A regression model predicts wellbeing scores from digital habits and lifestyle data, then serves predictions in real time through a REST endpoint.</p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">Scikit-Learn</span><span class="chip">FastAPI</span><span class="chip">Pandas</span></div>
+        </div>
+        <ul class="facts">
+          <li><b>R²</b><span>Accuracy measured with R², MAE and RMSE</span></li>
+          <li><b>↦</b><span>Feature scaling and encoding to prepare the data</span></li>
+          <li><b>API</b><span>Deployed as a FastAPI endpoint for live prediction requests</span></li>
+        </ul>
+      </article>
+
+      <article class="proj">
+        <div>
+          <span class="badge wip">In progress · SQL · BI</span>
+          <h3>Crypto Trading Performance Analyzer</h3>
+          <p>Finds out which strategies make money and which habits cost it. Historical trades are cleaned in Python, stored in PostgreSQL, and explored in Power BI dashboards that are being built now.</p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Power BI</span><span class="chip">Pandas</span><span class="chip">NumPy</span></div>
+        </div>
+        <ul class="kpis" aria-label="Five trading KPIs">
+          <li><i>01</i>Win Rate</li>
+          <li><i>02</i>Profit / Loss</li>
+          <li><i>03</i>Average Returns</li>
+          <li><i>04</i>Risk-Reward Ratio</li>
+          <li><i>05</i>Maximum Drawdown</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="label">Toolkit</div>
+  <div>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Programming</h3><div class="chips"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Scikit-Learn</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span></div></div>
+      <div><h3>Databases</h3><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">Joins</span><span class="chip">Aggregations</span><span class="chip">Subqueries</span></div></div>
+      <div><h3>Analysis</h3><div class="chips"><span class="chip">Data Cleaning</span><span class="chip">Wrangling</span><span class="chip">Validation</span><span class="chip">EDA</span><span class="chip">Statistics</span><span class="chip">Trend Analysis</span><span class="chip">Feature Engineering</span><span class="chip">KPI Analysis</span></div></div>
+      <div><h3>BI and visualization</h3><div class="chips"><span class="chip">Power BI</span><span class="chip">Dashboards</span><span class="chip">Data Storytelling</span><span class="chip">Reporting</span><span class="chip">Excel</span></div></div>
+      <div><h3>Data engineering</h3><div class="chips"><span class="chip">ETL</span><span class="chip">REST APIs</span><span class="chip">BeautifulSoup</span><span class="chip">FastAPI</span><span class="chip">Automation</span></div></div>
+      <div><h3>Tools</h3><div class="chips"><span class="chip">Jupyter</span><span class="chip">Google Colab</span><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">PowerPoint</span></div></div>
+      <div><h3>Working style</h3><div class="chips"><span class="chip">Communication</span><span class="chip">Analytical thinking</span><span class="chip">Problem solving</span><span class="chip">Attention to detail</span><span class="chip">Stakeholder reporting</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="label">Education</div>
+  <div>
+    <h2>Learning</h2>
+    <div class="edu">
+      <div class="node">
+        <span class="badge">Jul 2024 – Present · Expected 2027</span>
+        <h3>BCA, DDU Gorakhpur University</h3>
+        <p>CGPA 7.0 / 10.0. Coursework: Python, Data Structures and Algorithms, DBMS, SQL, Computer Networks, Operating Systems.</p>
+      </div>
+      <div class="node">
+        <span class="badge">Schooling</span>
+        <h3>MG Inter College</h3>
+        <p>Class 12: 74%. Class 10: 68%.</p>
+      </div>
+    </div>
+    <div style="margin-top:28px">
+      <div class="label" style="margin-bottom:6px">Certifications</div>
+      <div class="cert"><span class="mono" style="color:var(--accent)">✓</span>Data Analytics Job Simulation, Deloitte (Forage)</div>
+      <div class="cert"><span class="mono" style="color:var(--accent)">✓</span>Generative AI Certification, Tutedude</div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="label">Contact</div>
+  <div>
+    <h2>Let's work with your data.</h2>
+    <div class="rows">
+      <div class="row"><span class="label">Email</span><span class="v" id="em">vikashpandey2812005@gmail.com</span><button class="copy" data-t="em" type="button">copy</button></div>
+      <div class="row"><span class="label">Phone</span><span class="v" id="ph">+91 9580114085</span><button class="copy" data-t="ph" type="button">copy</button></div>
+      <div class="row"><span class="label">LinkedIn</span><a class="v" href="https://www.linkedin.com/in/vikash-pandey-9b18943a9" target="_blank" rel="noopener">vikash-pandey-9b18943a9 ↗</a></div>
+      <div class="row"><span class="label">GitHub</span><a class="v" href="https://github.com/vikash21pa-wq" target="_blank" rel="noopener">vikash21pa-wq ↗</a></div>
+      <div class="row"><span class="label">Location</span><span class="v">Uttar Pradesh, India</span></div>
+    </div>
+  </div>
+</section>
+
+<footer><span>© 2026 Vikash Pandey</span><span class="mono">Python · SQL · Power BI</span></footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
